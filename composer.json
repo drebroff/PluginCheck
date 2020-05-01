@@ -1,0 +1,26 @@
+{
+    "name": "Funami/module-plugincheck",
+    "description": "Check fukken plugin",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "leayuda@gmail.com",
+            "name": "Dmitrij Rebrov"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Funami\\PluginCheck\\": ""
+        },
+        "files": [
+          "registration.php"
+        ]
+    }
+}
